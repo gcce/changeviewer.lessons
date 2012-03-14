@@ -1,7 +1,14 @@
 <changeview>
 <lessons>
 
-
+ 
+<lesson tabname="Natural Disasters: Cyclones" wms_url="http://preview.grid.unep.ch:8080/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+<layer name_id= "preview:cy_buffers" alias_title="Cyclone Events" />
+<layer name_id= "preview:cy_risk" alias_title="Cyclone Risk" />
+<layer name_id= "preview:cs_frequency" alias_title="Cyclone Surges Frequency"  />
+<layer name_id= "preview:cy_physexp" alias_title="Cyclone Physical Exposure"  />
+<layer name_id= "preview:cs_physexp" alias_title="Cyclone Surges Physical Exposure"  />
+</lesson>
 
 <lesson tabname="Natural Disasters: Cyclones" wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 <layer name_id= "ndh:ndh-cyclone-proportional-economic-loss-risk-deciles"  alias_title="Cyclone Proportional Economic Loss" />
