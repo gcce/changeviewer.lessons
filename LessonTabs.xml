@@ -1,8 +1,8 @@
-<changeview>
+﻿<changeview>
 	<lessons>
 
 		<lesson tabname="EYO"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 			<layer
 				name_id="usgrid:usgrid-summary-file3-2000-msa_pctpopbelowpovlevel-2000"
 				alias_title="Population living below poverty level 2000" />
@@ -39,7 +39,7 @@
 			"preview:cs_physexp" alias_title="Cyclone Surges Physical Exposure" /> </lesson>
 		 -->
 		<lesson tabname="Natural Disasters: Cyclones"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 			<layer name_id="ndh:ndh-cyclone-proportional-economic-loss-risk-deciles"
 				alias_title="Cyclone Proportional Economic Loss" />
 			<layer name_id="ndh:ndh-cyclone-total-economic-loss-risk-deciles"
@@ -60,7 +60,7 @@
 		</lesson>
 
 		<lesson tabname="Food Security"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 			<layer
 				name_id="povmap:povmap-global-subnational-prevalence-child-malnutrition"
 				alias_title="Child Malnutrition (% of total population 0-5 yrs. old)" />
@@ -197,7 +197,7 @@
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 			<layer
 				name_id="esi:esi-environmental-sustainability-index-2005_water-quantity"
 				alias_title="Environmental Systems: Freshwater Availability Per Capita" />
