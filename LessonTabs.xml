@@ -23,7 +23,7 @@
 		</lesson>
 
 		<lesson tabname="EYO"
-			wms_url="http://ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-OEM-hurricane-evacuation-zone_1"
 				alias_title="NYC OEM Evacuation Zone 1" />
 			<layer name_id="gcce:gcce-storm-track-actual_2011" alias_title="Hurricane Irene actual storm track 2011" />
@@ -51,7 +51,7 @@
 		</lesson>
 
 		<lesson tabname="Natural Disasters: Cyclones"
-			wms_url="http://ciesin.columbia.edu/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-sst-cyclone_nargis-2008"
 				alias_title="Sea Surface Temperature (degrees celsius) April 27-May 3, 2008" />
 			<layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks (1969-2009)" />
@@ -73,7 +73,7 @@
 		</lesson>
 
 		<lesson tabname="Food Security"
-			wms_url="http://ciesin.columbia.edu/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-soil-nutrient-availability"
 				alias_title="Soil Nutrient Availability" />
 			<layer name_id="gcce:gcce-soil-salinity" alias_title="Soil Salinity" />
@@ -152,7 +152,7 @@
 		</lesson>
 
 		<lesson tabname="Climate Projections"
-			wms_url="http://ciesin.columbia.edu/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-precipitation-change_A2-2050s"
 				alias_title="Precipitation Rate Change A2 2050s" />
 			<layer name_id="gcce:gcce-precipitation-change_B1-2050s"
@@ -215,7 +215,7 @@
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://ciesin.columbia.edu/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita 2009" />
 		</lesson>
 
