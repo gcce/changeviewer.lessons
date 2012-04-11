@@ -58,6 +58,15 @@
 			<layer name_id="gcce:gcce-cyclone-intensity"
 				alias_title="Cyclone Intensity (maximum Saffir-Simpson score 1970-2009)" />
 		</lesson>
+		<lesson tabname="Natural Disasters: Cyclones"
+			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			<layer name_id="12" alias_title="Cyclone Physical Exposure 2010" />
+			<layer name_id="11" alias_title="Cyclone Surge Physical Exposure 2010" />
+			<layer name_id="15" alias_title="Cyclone Events based on theSaffir Simpson Categories for 1969 to 2009" />
+			<layer name_id="14" alias_title="Cyclone Risk" />
+			<layer name_id="10" alias_title="Cyclone Surge Category 1 Frequency" />
+
+		</lesson>
 
 		<lesson tabname="Food Security"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
