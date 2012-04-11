@@ -200,9 +200,9 @@
 
 		<lesson tabname="Water Resources"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			<layer name_id="003" alias_title="Global Glacier Distribution" />
-			<layer name_id="002" alias_title="Global Fresh Water Bodies" />
-			<layer name_id="001" alias_title="Available Water by Drainage Basin 1961 to 1990" />
+			<layer name_id="3" alias_title="Global Glacier Distribution" />
+			<layer name_id="2" alias_title="Global Fresh Water Bodies" />
+			<layer name_id="1" alias_title="Available Water by Drainage Basin 1961 to 1990" />
 		</lesson>
 
 		<lesson tabname="Water Resources"
