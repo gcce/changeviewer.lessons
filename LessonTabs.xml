@@ -87,6 +87,14 @@
 				alias_title="Phosphorus Fertilizer Application:  Global Fertilizer Application and Manure Production Distribution in 2000" />
 			<layer name_id="povmap:povmap-global-subnational-infant-mortality-rates_2000"
 				alias_title="Subnational Infant Mortality Rates 2000" />
+			<layer name_id="esi:esi-environmental-sustainability-index-2005_human-sustenance"
+				alias_title="Reducing Human Vulnerability: Percentage of Undernourished in Total Population" />
+			<layer name_id="esi:esi-environmental-sustainability-index-2005_reduce-water-stress"
+				alias_title="Reducing Environmental Stresses: Percentage of Country Under Severe Water Stress" />
+			<layer name_id="aglands:aglands-croplands-2000"
+				alias_title="Global Agricultural Lands: Croplands, 2000" />
+			<layer name_id="aglands:aglands-pastures-2000"
+				alias_title="" />
 		</lesson>
 
 		<lesson tabname="Food Security"
