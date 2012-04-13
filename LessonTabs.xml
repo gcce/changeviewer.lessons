@@ -94,7 +94,7 @@
 			<layer name_id="aglands:aglands-croplands-2000"
 				alias_title="Global Agricultural Lands: Croplands, 2000" />
 			<layer name_id="aglands:aglands-pastures-2000"
-				alias_title="" />
+				alias_title="Global Agricultural Lands: Pastures, 2000" />
 		</lesson>
 
 		<lesson tabname="Food Security"
