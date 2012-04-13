@@ -121,6 +121,8 @@
 				alias_title="Temperature Change A2 2070-2099" />
 			<layer name_id="gcce:gcce-temperature-change_B1-2080s"
 				alias_title="Temperature Change B1 2070-2099" />
+			<layer name_id="gcce:gcce-soil-nutrient-retention"
+				alias_title="Soil Nutrient Retention Capability" />
 		</lesson>
 
 
