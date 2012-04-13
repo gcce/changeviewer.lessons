@@ -229,6 +229,8 @@
 				alias_title="GRUMP v1 Population Count 2000" />
 			<layer name_id="nuclear:grump-v1-population-density_2010"
 				alias_title="GRUMP v1 Population Density 2010" />
+			<layer name_id="epi:epi-environmental-performance-index-2010_water-effects-on-ecosystems"
+				alias_title="EPI 2010 Water Effects on Ecosystems:  Proximity to Target:  Water Quality Index" />
 		</lesson>
 
 		<lesson tabname="Water Resources"
