@@ -81,6 +81,12 @@
 				alias_title="Population Density Estimates 2010" />
 			<layer name_id="anthromes:anthromes-anthropogenic-biomes-world-v1"
 				alias_title="Anthropogenic Biomes" />
+			<layer	name_id="ferman-v1:ferman-v1-phosphorus-in-manure-production"
+				alias_title="Phosphorus in Manure Production:  Global Fertilizer Application and Manure Production Distribution in 2000" />
+			<layer name_id="ferman-v1:ferman-v1-phosphorus-fertilizer-application"
+				alias_title="Phosphorus Fertilizer Application:  Global Fertilizer Application and Manure Production Distribution in 2000" />
+			<layer name_id="povmap:povmap-global-subnational-infant-mortality-rates_2000"
+				alias_title="Subnational Infant Mortality Rates 2000" />
 		</lesson>
 
 		<lesson tabname="Food Security"
