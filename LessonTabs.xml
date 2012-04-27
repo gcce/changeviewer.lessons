@@ -75,10 +75,10 @@
 			<layer
 				name_id="povmap:povmap-global-subnational-prevalence-child-malnutrition"
 				alias_title="Child Malnutrition (% of total population 0-5 yrs. old)" />
-			<layer name_id="gpw-v3:gpw-v3-population-density-future-estimates_2015"
+<!--			<layer name_id="gpw-v3:gpw-v3-population-density-future-estimates_2015"
 				alias_title="Population Density Future Estimates 2015" />
 			<layer name_id="gpw-v3:gpw-v3-population-density-future-estimates_2010"
-				alias_title="Population Density Estimates 2010" />
+				alias_title="Population Density Estimates 2010" /> -->
 			<layer name_id="anthromes:anthromes-anthropogenic-biomes-world-v1"
 				alias_title="Anthropogenic Biomes" />
 			<layer	name_id="ferman-v1:ferman-v1-phosphorus-in-manure-production"
@@ -100,8 +100,6 @@
 			<layer name_id="grump-v1:grump-v1-population-density_2000"
 				alias_title="GRUMP v1 Population Density 2000" />
 			<layer name_id="grump-v1:grump-v1-population-density_2010"
-				alias_title="GRUMP v1 Population Density 2010" />
-			<layer name_id="nuclear:grump-v1-population-density_2010"
 				alias_title="GRUMP v1 Population Density 2010" />
 		</lesson>
 
