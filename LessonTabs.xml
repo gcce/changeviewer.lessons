@@ -131,6 +131,14 @@
 				alias_title="Temperature Change B1 2070-2099" />
 			<layer name_id="gcce:gcce-soil-nutrient-retention"
 				alias_title="Soil Nutrient Retention Capability" />
+			<layer name_id="grump-v1:grump-v1-population-density_1990"
+				alias_title="GRUMP v1 Population Density 1990" />
+			<layer name_id="grump-v1:grump-v1-population-density_2000"
+				alias_title="GRUMP v1 Population Density 2000" />
+			<layer name_id="grump-v1:grump-v1-population-density_2010"
+				alias_title="GRUMP v1 Population Density 2010" />
+			<layer name_id="nuclear:grump-v1-population-density_2010"
+				alias_title="GRUMP v1 Population Density 2010" />
 		</lesson>
 
 
