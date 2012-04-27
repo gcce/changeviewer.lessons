@@ -95,6 +95,14 @@
 				alias_title="Global Agricultural Lands: Croplands, 2000" />
 			<layer name_id="aglands:aglands-pastures-2000"
 				alias_title="Global Agricultural Lands: Pastures, 2000" />
+			<layer name_id="grump-v1:grump-v1-population-density_1990"
+				alias_title="GRUMP v1 Population Density 1990" />
+			<layer name_id="grump-v1:grump-v1-population-density_2000"
+				alias_title="GRUMP v1 Population Density 2000" />
+			<layer name_id="grump-v1:grump-v1-population-density_2010"
+				alias_title="GRUMP v1 Population Density 2010" />
+			<layer name_id="nuclear:grump-v1-population-density_2010"
+				alias_title="GRUMP v1 Population Density 2010" />
 		</lesson>
 
 		<lesson tabname="Food Security"
