@@ -101,12 +101,12 @@
 				alias_title="GRUMP v1 Population Density 2000" />
 			<layer name_id="nuclear:grump-v1-population-density_2010"
 				alias_title="GRUMP v1 Population Density 2010" />
-<!-- 				<layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:wheat"
-                alias_title="Wheat Production Average in tons" />
+    			<layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:wheat"
+                alias_title="ALPHA - Wheat Production Average in tons" />
                 <layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:rice"
-                alias_title="Rice Production Average in tons" />
+                alias_title="ALPHA - Rice Production Average in tons" />
                 <layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:maize"
-                alias_title="Maize Production Average in tons" />    -->
+                alias_title="ALPHA - Maize Production Average in tons" />
         </lesson>
 
 		<lesson tabname="Food Security"
