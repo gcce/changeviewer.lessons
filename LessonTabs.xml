@@ -267,7 +267,7 @@
 		<lesson tabname="Water Resources"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/sedac-wms-capabilities-1.3.0.xml">
 			<layer
-				name_id="esi-environmental-sustainability-index-2005_water-quantity:default"
+				name_id="esi:esi-environmental-sustainability-index-2005_water-quantity"
 				alias_title="Environmental Systems: Freshwater Availability Per Capita" />
 			<layer
 				name_id="epi:epi-environmental-performance-index-2010_water-effects-on-human-health"
