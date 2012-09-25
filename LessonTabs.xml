@@ -73,11 +73,8 @@
 			<layer name_id="014" alias_title="Cyclone Risk"/>
 			<layer name_id="010" alias_title="Cyclone Surge Frequency Category 1"/>
 			<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
-                        <layer name_id="016" alias_title="Cyclone Tracks 1969 to 1977"/>
-                        <layer name_id="017" alias_title="Cyclone Tracks 1978 to 1985"/>
-                        <layer name_id="018" alias_title="Cyclone Tracks 1986 to 1993"/>
-                        <layer name_id="019" alias_title="Cyclone Tracks 1994 to 2001"/>
-                        <layer name_id="020" alias_title="Cyclone Tracks 2002 to 2009"/>
+                        <layer name_id="016" alias_title="Cyclone Tracks by Year"/>
+                       
 		</lesson>
 
 		<lesson tabname="Food Security"
