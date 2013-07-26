@@ -159,10 +159,18 @@
 			<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
 			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>
-			<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/>
+		<!--	<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/> -->
 		<!--	<layer name_id="13" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
 			<layer name_id="42" alias_title="Average Number of Wet Days 1901 to 2002"/>  -->
 		</lesson>
+		
+		
+		<lesson tabname="Food Security"
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			<layer name_id="climate1stop:climate1stop-runoff-yearly-average-1961-1990" alias_title="Runoff Yearly Average 1961 to 1990"/>		
+		</lesson>
+		
+		
 		<lesson tabname="Food Security"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
 			<layer name_id="019" alias_title="Wheat Production Average in Tons"/>
@@ -172,52 +180,21 @@
 			<layer name_id="018" alias_title="Suitability of Currently Available Land for Rainfed Production of Cereals"/>
 		</lesson>
 
-	<!--	<lesson tabname="Climate Projections"
+		<lesson tabname="Climate Projections"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			
 			<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
 			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>
-			<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/>
-			<layer name_id="13" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
-			<layer name_id="42" alias_title="Average Number of Wet Days 1901 to 2002"/>
+	
 			<layer name_id="41" alias_title="Climate Moisture Index 2031 to 2040 Dry Model"/>
 			<layer name_id="40" alias_title="Climate Moisture Index 2051 to 2060 Dry Model"/>
 			<layer name_id="39" alias_title="Climate Moisture Index 2031 to 2040 Mid Model"/>
 			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
 			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
 			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>
-			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
-			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
-			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
-			<layer name_id="23" alias_title="Precipitation 2051 to 2060 Mid Model"/>
-			<layer name_id="21" alias_title="Precipitation 2031 to 2040 Wet Model"/>
-			<layer name_id="22" alias_title="Precipitation 2051 to 2060 Wet Model"/>
-			<layer name_id="19" alias_title="Runoff 2031 to 2040 Dry Model"/>
-			<layer name_id="18" alias_title="Runoff 2051 to 2060 Dry Model"/>
-			<layer name_id="17" alias_title="Runoff 2031 to 2040 Mid Model"/>
-			<layer name_id="16" alias_title="Runoff 2051 to 2060 Mid Model"/>
-			<layer name_id="15" alias_title="Runoff 2031 to 2040 Wet Model"/>
-			<layer name_id="14" alias_title="Runoff 2051 to 2060 Wet Model"/>
-			<layer name_id="12" alias_title="Soil Moisture 2031 to 2040 Dry Model"/>
-			<layer name_id="11" alias_title="Soil Moisture 2051 to 2060 Dry Model"/>
-			<layer name_id="10" alias_title="Soil Moisture 2031 to 2060 Mid Model"/>
-			<layer name_id="9" alias_title="Soil Moisture 2051 to 2060 Mid Model"/>
-			<layer name_id="8" alias_title="Soil Moisture 2031 to 2040 Wet Model"/>
-			<layer name_id="7" alias_title="Soil Moisture 2051 to 2060 Wet Model"/>
-			
-			<layer name_id="49" alias_title="Average Diurnal Temperature Range 1901 to 2002"/>
-			<layer name_id="44" alias_title="Avg Daily Max Temperature 1901 to 2002"/>
-			<layer name_id="45" alias_title="Avg Daily Min Temperature 1901 to 2002"/>
-			<layer name_id="48" alias_title="Frost Day Frequency 1901 to 2002"/>
-			<layer name_id="27" alias_title="Precipitation Yearly Average 1961 to 1990"/>
-			<layer name_id="5" alias_title="Temperature 2031 to 2040 Dry Model"/>
-			<layer name_id="3" alias_title="Temperature 2031 to 2040 Mid Model"/>
-			<layer name_id="1" alias_title="Temperature 2031 to 2040 Wet Model"/>
-			<layer name_id="4" alias_title="Temperature 2051 to 2060 Dry Model"/>
-			<layer name_id="2" alias_title="Temperature 2051 to 2060 Mid Model"/>
-			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
-			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
-		</lesson>    -->
+		
+		</lesson>    
 		
 		
 		
@@ -292,23 +269,6 @@
 				alias_title="Temperature Change B1 2070-2099" />
 		</lesson>
 
-	<!--	<lesson tabname="Water Resources"
-			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
-			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
-			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
-			<layer name_id="23" alias_title="Precipitation 2051 to 2060 Mid Model"/>
-			<layer name_id="21" alias_title="Precipitation 2031 to 2040 Wet Model"/>
-			<layer name_id="22" alias_title="Precipitation 2051 to 2060 Wet Model"/>
-			<layer name_id="27" alias_title="Precipitation Yearly Average 1961 to 1990"/>
-			<layer name_id="5" alias_title="Temperature 2031 to 2040 Dry Model"/>
-			<layer name_id="4" alias_title="Temperature 2051 to 2060 Dry Model"/>
-			<layer name_id="3" alias_title="Temperature 2031 to 2040 Mid Model"/>
-			<layer name_id="2" alias_title="Temperature 2051 to 2060 Mid Model"/>
-			<layer name_id="1" alias_title="Temperature 2031 to 2040 Wet Model"/>
-			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
-			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
-		</lesson>   -->
 		
 		<lesson tabname="Water Resources"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
