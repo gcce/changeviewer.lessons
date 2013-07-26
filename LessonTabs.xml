@@ -72,8 +72,17 @@
 			<layer name_id="015" alias_title="Cyclone Events based on theSaffir Simpson Categories for 1969 to 2009"/>
 			<layer name_id="014" alias_title="Cyclone Risk"/>
 			<layer name_id="010" alias_title="Cyclone Surge Frequency Category 1"/>
-			<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
-                        <layer name_id="016" alias_title="Cyclone Tracks by Year"/>
+		<!--	<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
+                        <layer name_id="016" alias_title="Cyclone Tracks by Year"/> -->
+                       
+		</lesson>
+		
+		<lesson tabname="Natural Disasters: Cyclones"
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			
+		
+			<layer name_id="gcce:gcce-cyclone-intensity" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
+                        <layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks by Year"/>
                        
 		</lesson>
 
