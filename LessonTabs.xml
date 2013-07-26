@@ -172,7 +172,7 @@
 			<layer name_id="018" alias_title="Suitability of Currently Available Land for Rainfed Production of Cereals"/>
 		</lesson>
 
-		<lesson tabname="Climate Projections"
+	<!--	<lesson tabname="Climate Projections"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
 			<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
@@ -217,7 +217,60 @@
 			<layer name_id="2" alias_title="Temperature 2051 to 2060 Mid Model"/>
 			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
 			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
+		</lesson>    -->
+		
+		
+		
+		
+		<lesson tabname="Climate Projections"
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+		<!--	<layer name_id="35"
+				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
+			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>-->
+			<layer name_id="climate1stop:climate1stop-runoff-yearly-average-1961-1990" alias_title="Runoff Yearly Average 1961 to 1990"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-yearly-average-1961-1990" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
+			<layer name_id="climate1stop:climate1stop-average-number-of-wet-days-1901-2002" alias_title="Average Number of Wet Days 1901 to 2002"/>
+			<!--<layer name_id="41" alias_title="Climate Moisture Index 2031 to 2040 Dry Model"/>
+			<layer name_id="40" alias_title="Climate Moisture Index 2051 to 2060 Dry Model"/>
+			<layer name_id="39" alias_title="Climate Moisture Index 2031 to 2040 Mid Model"/>
+			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
+			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
+			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>-->
+			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2031-2040" alias_title="Precipitation 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Precipitation 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2031-2040" alias_title="Precipitation 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2051-2060" alias_title="Precipitation 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2031-2040" alias_title="Precipitation 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2051-2060" alias_title="Precipitation 2051 to 2060 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-dry-model-2031-2040" alias_title="Runoff 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-dry-model-2051-2060" alias_title="Runoff 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-mid-model-2031-2040" alias_title="Runoff 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-mid-model-2051-2060" alias_title="Runoff 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-wet-model-2031-2040" alias_title="Runoff 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-runoff-wet-model-2051-2060" alias_title="Runoff 2051 to 2060 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-dry-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-wet-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-soil-moisture-wet-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Wet Model"/>
+			
+			<layer name_id="climate1stop:climate1stop-average-diurnal-temperature-range-1901-2002" alias_title="Average Diurnal Temperature Range 1901 to 2002"/>
+			<layer name_id="climate1stop:climate1stop-average-daily-maximum-temperature-1901-2002" alias_title="Avg Daily Max Temperature 1901 to 2002"/>
+			<layer name_id="climate1stop:climate1stop-average-daily-minimum-temperature-1901-2002" alias_title="Avg Daily Min Temperature 1901 to 2002"/>
+			<layer name_id="climate1stop:climate1stop-frost-day-frequency-1901-2002" alias_title="Frost Day Frequency 1901 to 2002"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-yearly-average-1961-1990" alias_title="Precipitation Yearly Average 1961 to 1990"/>
+			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2031-2040" alias_title="Temperature 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2031-2040" alias_title="Temperature 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2031-2040" alias_title="Temperature 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Temperature 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2051-2060" alias_title="Temperature 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2051-2060" alias_title="Temperature 2051 to 2060 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-yearly-average-1961-1990" alias_title="Temperature Yearly Average 1961 to 1990"/>
 		</lesson>
+		
+		
+		
 
 		<lesson tabname="Climate Projections"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
@@ -239,7 +292,7 @@
 				alias_title="Temperature Change B1 2070-2099" />
 		</lesson>
 
-		<lesson tabname="Water Resources"
+	<!--	<lesson tabname="Water Resources"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
 			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
 			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
@@ -255,6 +308,24 @@
 			<layer name_id="1" alias_title="Temperature 2031 to 2040 Wet Model"/>
 			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
 			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
+		</lesson>   -->
+		
+		<lesson tabname="Water Resources"
+			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2031-2040" alias_title="Precipitation 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Precipitation 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2031-2040" alias_title="Precipitation 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2051-2060" alias_title="Precipitation 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2031-2040" alias_title="Precipitation 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2051-2060" alias_title="Precipitation 2051 to 2060 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-precipitation-yearly-average-1961-1990" alias_title="Precipitation Yearly Average 1961 to 1990"/>
+			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2031-2040" alias_title="Temperature 2031 to 2040 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2051-2060" alias_title="Temperature 2051 to 2060 Dry Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2031-2040" alias_title="Temperature 2031 to 2040 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2051-2060" alias_title="Temperature 2051 to 2060 Mid Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2031-2040" alias_title="Temperature 2031 to 2040 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2051-2060" alias_title="Temperature 2051 to 2060 Wet Model"/>
+			<layer name_id="climate1stop:climate1stop-temperature-yearly-average-1961-1990" alias_title="Temperature Yearly Average 1961 to 1990"/>
 		</lesson>
 
 		<lesson tabname="Water Resources"
