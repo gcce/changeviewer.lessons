@@ -146,6 +146,7 @@
 			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
 			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
 			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>
+<<<<<<< HEAD
 			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
 			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
 			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
