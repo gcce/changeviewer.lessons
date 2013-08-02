@@ -1,46 +1,8 @@
 <changeview>
 	<lessons>
-
-		<!-- <lesson tabname="EYO"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			<layer
-				name_id="usgrid:usgrid-summary-file3-2000-msa_pctpopbelowpovlevel-2000"
-				alias_title="Population living below poverty level 2000" />
-			<layer
-				name_id="usgrid:usgrid-summary-file3-2000-msa_pctpopbelow50pctpovlevel-2000"
-				alias_title="Population living below 50% of poverty level 2000" />
-			<layer
-				name_id="usgrid:usgrid-summary-file3-2000-msa_pcthouseholdlinguisticisolation-2000"
-				alias_title="Linguistically isolated households 2000" />
-			<layer name_id="usgrid:usgrid-summary-file3-2000-msa_popsf3density-2000"
-				alias_title="Population Density 2000" />
-			<layer name_id="usgrid:usgrid-summary-file1-2000-msa_pctpop5to17-2000"
-				alias_title="Percentage of Population 5 to 17 years old" />
-			<layer name_id="usgrid:usgrid-summary-file1-2000-msa_pctpop65to79-2000"
-				alias_title="Percentage of Population 65 to 79 years old" />
-			<layer name_id="usgrid:usgrid-summary-file1-2000-msa_pctpop80andup-2000"
-				alias_title="Percentage of Population 80 years old and above" />
-		</lesson>
-
-		<lesson tabname="EYO"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-OEM-hurricane-evacuation-zone_1"
-				alias_title="NYC OEM Evacuation Zone 1" />
-			<layer name_id="gcce:gcce-storm-track-actual_2011" alias_title="Hurricane Irene actual storm track 2011"/>
-			<layer name_id="gcce:gcce-storm-track-scenario_2011"
-				alias_title="Hurricane Irene scenario storm track 2011" />
-		</lesson>-->
-
-		<!--
-		<lesson tabname="Natural Disasters: Cyclones" wms_url="http://preview.grid.unep.ch:8080/geoserver/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			<layer name_id= "preview:cy_buffers" alias_title="Cyclone Events" /> <layer
-			name_id= "preview:cy_risk" alias_title="Cyclone Risk" /> <layer name_id=
-			"preview:cs_frequency" alias_title="Cyclone Surges Frequency" /> <layer name_id=
-			"preview:cy_physexp" alias_title="Cyclone Physical Exposure" /> <layer name_id=
-			"preview:cs_physexp" alias_title="Cyclone Surges Physical Exposure" /> </lesson>
-		 -->
+	
 		<lesson tabname="Natural Disasters: Cyclones"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;request=GetCapabilities&amp;version=1.3.0">
 			<layer name_id="ndh:ndh-cyclone-proportional-economic-loss-risk-deciles"
 				alias_title="Cyclone Proportional Economic Loss" />
 			<layer name_id="ndh:ndh-cyclone-total-economic-loss-risk-deciles"
@@ -72,22 +34,12 @@
 			<layer name_id="015" alias_title="Cyclone Events based on theSaffir Simpson Categories for 1969 to 2009"/>
 			<layer name_id="014" alias_title="Cyclone Risk"/>
 			<layer name_id="010" alias_title="Cyclone Surge Frequency Category 1"/>
-		<!--	<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
-                        <layer name_id="016" alias_title="Cyclone Tracks by Year"/> -->
-                       
-		</lesson>
-		
-		<lesson tabname="Natural Disasters: Cyclones"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			
-		
-			<layer name_id="gcce:gcce-cyclone-intensity" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
-                        <layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks by Year"/>
-                       
+			<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
+            <layer name_id="016" alias_title="Cyclone Tracks by Year"/>
 		</lesson>
 
 		<lesson tabname="Food Security"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;request=GetCapabilities&amp;version=1.3.0">
 			<layer
 				name_id="povmap:povmap-global-subnational-prevalence-child-malnutrition"
 				alias_title="Child Malnutrition (% of total population 0-5 yrs. old)" />
@@ -117,13 +69,12 @@
 				alias_title="GRUMP v1 Population Density 2000" />
 			<layer name_id="nuclear:grump-v1-population-density_2010"
 				alias_title="GRUMP v1 Population Density 2010" />
-    			<!-- <layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:wheat"
+    		<!--	<layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:wheat"
                 alias_title="ALPHA - Wheat Production Average in tons" />
                 <layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:rice"
                 alias_title="ALPHA - Rice Production Average in tons" />
                 <layer name_id= "crop-climate:crop-climate-effects-climate-global-food-production" style="crop-climate-effects-climate-global-food-production:maize"
-                alias_title="ALPHA - Maize Production Average in tons" />-->
-
+                alias_title="ALPHA - Maize Production Average in tons" /> -->
         </lesson>
 
 		<lesson tabname="Food Security"
@@ -168,18 +119,10 @@
 			<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
 			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>
-		<!--	<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/> -->
+			<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/>
 		<!--	<layer name_id="13" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
 			<layer name_id="42" alias_title="Average Number of Wet Days 1901 to 2002"/>  -->
 		</lesson>
-		
-		
-		<lesson tabname="Food Security"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="climate1stop:climate1stop-runoff-yearly-average-1961-1990" alias_title="Runoff Yearly Average 1961 to 1990"/>		
-		</lesson>
-		
-		
 		<lesson tabname="Food Security"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
 			<layer name_id="019" alias_title="Wheat Production Average in Tons"/>
@@ -191,72 +134,50 @@
 
 		<lesson tabname="Climate Projections"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			
 			<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
 			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>
-	
+			<layer name_id="20" alias_title="Runoff Yearly Average 1961 to 1990"/>
+			<layer name_id="13" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
+			<layer name_id="42" alias_title="Average Number of Wet Days 1901 to 2002"/>
 			<layer name_id="41" alias_title="Climate Moisture Index 2031 to 2040 Dry Model"/>
 			<layer name_id="40" alias_title="Climate Moisture Index 2051 to 2060 Dry Model"/>
 			<layer name_id="39" alias_title="Climate Moisture Index 2031 to 2040 Mid Model"/>
 			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
 			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
 			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>
-		
-		</lesson>    
-		
-		
-		
-		
-		<lesson tabname="Climate Projections"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-		<!--	<layer name_id="35"
-				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
-			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>-->
-			<layer name_id="climate1stop:climate1stop-runoff-yearly-average-1961-1990" alias_title="Runoff Yearly Average 1961 to 1990"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-yearly-average-1961-1990" alias_title="Soil Moisture Yearly Average 1961 to 1990"/>
-			<layer name_id="climate1stop:climate1stop-average-number-of-wet-days-1901-2002" alias_title="Average Number of Wet Days 1901 to 2002"/>
-			<!--<layer name_id="41" alias_title="Climate Moisture Index 2031 to 2040 Dry Model"/>
-			<layer name_id="40" alias_title="Climate Moisture Index 2051 to 2060 Dry Model"/>
-			<layer name_id="39" alias_title="Climate Moisture Index 2031 to 2040 Mid Model"/>
-			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
-			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
-			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>-->
-			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2031-2040" alias_title="Precipitation 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Precipitation 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2031-2040" alias_title="Precipitation 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2051-2060" alias_title="Precipitation 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2031-2040" alias_title="Precipitation 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2051-2060" alias_title="Precipitation 2051 to 2060 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-dry-model-2031-2040" alias_title="Runoff 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-dry-model-2051-2060" alias_title="Runoff 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-mid-model-2031-2040" alias_title="Runoff 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-mid-model-2051-2060" alias_title="Runoff 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-wet-model-2031-2040" alias_title="Runoff 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-runoff-wet-model-2051-2060" alias_title="Runoff 2051 to 2060 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-dry-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-mid-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-wet-model-2031-2040" alias_title="Soil Moisture 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-soil-moisture-wet-model-2051-2060" alias_title="Soil Moisture 2051 to 2060 Wet Model"/>
+			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
+			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
+			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
+			<layer name_id="23" alias_title="Precipitation 2051 to 2060 Mid Model"/>
+			<layer name_id="21" alias_title="Precipitation 2031 to 2040 Wet Model"/>
+			<layer name_id="22" alias_title="Precipitation 2051 to 2060 Wet Model"/>
+			<layer name_id="19" alias_title="Runoff 2031 to 2040 Dry Model"/>
+			<layer name_id="18" alias_title="Runoff 2051 to 2060 Dry Model"/>
+			<layer name_id="17" alias_title="Runoff 2031 to 2040 Mid Model"/>
+			<layer name_id="16" alias_title="Runoff 2051 to 2060 Mid Model"/>
+			<layer name_id="15" alias_title="Runoff 2031 to 2040 Wet Model"/>
+			<layer name_id="14" alias_title="Runoff 2051 to 2060 Wet Model"/>
+			<layer name_id="12" alias_title="Soil Moisture 2031 to 2040 Dry Model"/>
+			<layer name_id="11" alias_title="Soil Moisture 2051 to 2060 Dry Model"/>
+			<layer name_id="10" alias_title="Soil Moisture 2031 to 2060 Mid Model"/>
+			<layer name_id="9" alias_title="Soil Moisture 2051 to 2060 Mid Model"/>
+			<layer name_id="8" alias_title="Soil Moisture 2031 to 2040 Wet Model"/>
+			<layer name_id="7" alias_title="Soil Moisture 2051 to 2060 Wet Model"/>
 			
-			<layer name_id="climate1stop:climate1stop-average-diurnal-temperature-range-1901-2002" alias_title="Average Diurnal Temperature Range 1901 to 2002"/>
-			<layer name_id="climate1stop:climate1stop-average-daily-maximum-temperature-1901-2002" alias_title="Avg Daily Max Temperature 1901 to 2002"/>
-			<layer name_id="climate1stop:climate1stop-average-daily-minimum-temperature-1901-2002" alias_title="Avg Daily Min Temperature 1901 to 2002"/>
-			<layer name_id="climate1stop:climate1stop-frost-day-frequency-1901-2002" alias_title="Frost Day Frequency 1901 to 2002"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-yearly-average-1961-1990" alias_title="Precipitation Yearly Average 1961 to 1990"/>
-			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2031-2040" alias_title="Temperature 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2031-2040" alias_title="Temperature 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2031-2040" alias_title="Temperature 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Temperature 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2051-2060" alias_title="Temperature 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2051-2060" alias_title="Temperature 2051 to 2060 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-yearly-average-1961-1990" alias_title="Temperature Yearly Average 1961 to 1990"/>
+			<layer name_id="49" alias_title="Average Diurnal Temperature Range 1901 to 2002"/>
+			<layer name_id="44" alias_title="Avg Daily Max Temperature 1901 to 2002"/>
+			<layer name_id="45" alias_title="Avg Daily Min Temperature 1901 to 2002"/>
+			<layer name_id="48" alias_title="Frost Day Frequency 1901 to 2002"/>
+			<layer name_id="27" alias_title="Precipitation Yearly Average 1961 to 1990"/>
+			<layer name_id="5" alias_title="Temperature 2031 to 2040 Dry Model"/>
+			<layer name_id="3" alias_title="Temperature 2031 to 2040 Mid Model"/>
+			<layer name_id="1" alias_title="Temperature 2031 to 2040 Wet Model"/>
+			<layer name_id="4" alias_title="Temperature 2051 to 2060 Dry Model"/>
+			<layer name_id="2" alias_title="Temperature 2051 to 2060 Mid Model"/>
+			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
+			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
 		</lesson>
-		
-		
-		
 
 		<lesson tabname="Climate Projections"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
@@ -278,35 +199,34 @@
 				alias_title="Temperature Change B1 2070-2099" />
 		</lesson>
 
-		
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2031-2040" alias_title="Precipitation 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Precipitation 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2031-2040" alias_title="Precipitation 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2051-2060" alias_title="Precipitation 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2031-2040" alias_title="Precipitation 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-wet-model-2051-2060" alias_title="Precipitation 2051 to 2060 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-precipitation-yearly-average-1961-1990" alias_title="Precipitation Yearly Average 1961 to 1990"/>
-			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2031-2040" alias_title="Temperature 2031 to 2040 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-dry-model-2051-2060" alias_title="Temperature 2051 to 2060 Dry Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2031-2040" alias_title="Temperature 2031 to 2040 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-mid-model-2051-2060" alias_title="Temperature 2051 to 2060 Mid Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2031-2040" alias_title="Temperature 2031 to 2040 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-wet-model-2051-2060" alias_title="Temperature 2051 to 2060 Wet Model"/>
-			<layer name_id="climate1stop:climate1stop-temperature-yearly-average-1961-1990" alias_title="Temperature Yearly Average 1961 to 1990"/>
+			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewA/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
+			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
+			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
+			<layer name_id="23" alias_title="Precipitation 2051 to 2060 Mid Model"/>
+			<layer name_id="21" alias_title="Precipitation 2031 to 2040 Wet Model"/>
+			<layer name_id="22" alias_title="Precipitation 2051 to 2060 Wet Model"/>
+			<layer name_id="27" alias_title="Precipitation Yearly Average 1961 to 1990"/>
+			<layer name_id="5" alias_title="Temperature 2031 to 2040 Dry Model"/>
+			<layer name_id="4" alias_title="Temperature 2051 to 2060 Dry Model"/>
+			<layer name_id="3" alias_title="Temperature 2031 to 2040 Mid Model"/>
+			<layer name_id="2" alias_title="Temperature 2051 to 2060 Mid Model"/>
+			<layer name_id="1" alias_title="Temperature 2031 to 2040 Wet Model"/>
+			<layer name_id="0" alias_title="Temperature 2051 to 2060 Wet Model"/>
+			<layer name_id="6" alias_title="Temperature Yearly Average 1961 to 1990"/>
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-global-glacial-distribution" alias_title="Global Glacier Distribution"/>
-			<layer name_id="gcce:gcce-global-fresh-water-bodies" alias_title="Global Fresh Water Bodies"/>
-			<layer name_id="gcce:gcce-available-water-by-drainage-basin-1961-1990" alias_title="Available Water by Drainage Basin 1961 to 1990"/>
-			<!--<layer name_id="017" alias_title="GDP per capita in 2009 in US Dollars"/>-->
+			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			<layer name_id="003" alias_title="Global Glacier Distribution"/>
+			<layer name_id="002" alias_title="Global Fresh Water Bodies"/>
+			<layer name_id="001" alias_title="Available Water by Drainage Basin 1961 to 1990"/>
+			<layer name_id="017" alias_title="GDP per capita in 2009 in US Dollars"/>
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;request=GetCapabilities&amp;version=1.3.0">
 			<layer
 				name_id="esi:esi-environmental-sustainability-index-2005_water-quantity"
 				alias_title="Environmental Systems: Freshwater Availability Per Capita" />
@@ -329,17 +249,35 @@
 
 		<lesson tabname="Water Resources"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-gdp-per-capita-2009" alias_title="GDP per capita in 2009 in US Dollars"/>
+			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita 2009"/>
 		</lesson>
-		
+
 		<lesson tabname="Sea Level Rise"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-sea-level-rise-1-meter" alias_title="1 Meter Sea Level Rise" />
-			<layer name_id="gcce:gcce-sea-level-rise-2-meter" alias_title="2 Meter Sea Level Rise" />
-			<layer name_id="gcce:gcce-sea-level-rise-3-meter" alias_title="3 Meter Sea Level Rise" />
-			<layer name_id="gcce:gcce-sea-level-rise-4-meter" alias_title="4 Meter Sea Level Rise" />
-			<layer name_id="gcce:gcce-sea-level-rise-5-meter" alias_title="5 Meter Sea Level Rise" />
-			<layer name_id="gcce:gcce-sea-level-rise-6-meter" alias_title="6 Meter Sea Level Rise" />
+			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
+			<layer name_id="009" alias_title="1 Meter Sea Level Rise"/>
+			<layer name_id="008" alias_title="2 Meter Sea Level Rise"/>
+			<layer name_id="007" alias_title="3 Meter Sea Level Rise"/>
+			<layer name_id="006" alias_title="4 Meter Sea Level Rise"/>
+			<layer name_id="005" alias_title="5 Meter Sea Level Rise"/>
+			<layer name_id="004" alias_title="6 Meter Sea Level Rise"/>
 		</lesson>
+
 	</lessons>
 </changeview>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
