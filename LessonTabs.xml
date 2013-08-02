@@ -146,7 +146,6 @@
 			<layer name_id="38" alias_title="Climate Moisture Index 2051 to 2060 Mid Model"/>
 			<layer name_id="37" alias_title="Climate Moisture Index 2031 to 2040 Wet Model"/>
 			<layer name_id="36" alias_title="Climate Moisture Index 2051 to 2060 Wet Model"/>
-<<<<<<< HEAD
 			<layer name_id="26" alias_title="Precipitation 2031 to 2040 Dry Model"/>
 			<layer name_id="25" alias_title="Precipitation 2051 to 2060 Dry Model"/>
 			<layer name_id="24" alias_title="Precipitation 2031 to 2040 Mid Model"/>
@@ -165,7 +164,6 @@
 			<layer name_id="9" alias_title="Soil Moisture 2051 to 2060 Mid Model"/>
 			<layer name_id="8" alias_title="Soil Moisture 2031 to 2040 Wet Model"/>
 			<layer name_id="7" alias_title="Soil Moisture 2051 to 2060 Wet Model"/>
-			
 			<layer name_id="49" alias_title="Average Diurnal Temperature Range 1901 to 2002"/>
 			<layer name_id="44" alias_title="Avg Daily Max Temperature 1901 to 2002"/>
 			<layer name_id="45" alias_title="Avg Daily Min Temperature 1901 to 2002"/>
