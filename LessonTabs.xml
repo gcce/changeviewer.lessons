@@ -182,6 +182,7 @@
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 
 			<!-- test layer-->
+			<layer name_id="climate1stop:test-pred2030" alias_title="Test Precipitation 2031 to 2040 Dry Model"/>
 			<layer name_id="climate1stop:climate1stop-round4-test" alias_title="Average Daily Max Temperature 1901 to 2002"/>
 			<!-- end test layer-->
 
