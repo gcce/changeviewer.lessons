@@ -180,22 +180,19 @@
 
 		<lesson tabname="Climate Projections"
 			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-precipitation-change_A2-2050s"
-				alias_title="Precipitation Rate Change A2 2050s" />
-			<layer name_id="gcce:gcce-precipitation-change_B1-2050s"
-				alias_title="Precipitation Rate Change B1 2050s" />
-			<layer name_id="gcce:gcce-precipitation-change_A2-2080s"
-				alias_title="Precipitation Rate Change A2 2080s" />
-			<layer name_id="gcce:gcce-precipitation-change_B1-2080s"
-				alias_title="Precipitation Rate Change B1 2080s" />
-			<layer name_id="gcce:gcce-temperature-change_A2-2050s"
-				alias_title="Temperature Change A2 2040-2069" />
-			<layer name_id="gcce:gcce-temperature-change_B1-2050s"
-				alias_title="Temperature Change B1 2040-2069" />
-			<layer name_id="gcce:gcce-temperature-change_A2-2080s"
-				alias_title="Temperature Change A2 2070-2099" />
-			<layer name_id="gcce:gcce-temperature-change_B1-2080s"
-				alias_title="Temperature Change B1 2070-2099" />
+
+			<!-- test layer-->
+			<layer name_id="climate1stop:climate1stop-round4-test" alias_title="Average Daily Max Temperature 1901 to 2002"/>
+			<!-- end test layer-->
+
+			<layer name_id="gcce:gcce-precipitation-change_A2-2050s" alias_title="Precipitation Rate Change A2 2050s" />
+			<layer name_id="gcce:gcce-precipitation-change_B1-2050s" alias_title="Precipitation Rate Change B1 2050s" />
+			<layer name_id="gcce:gcce-precipitation-change_A2-2080s" alias_title="Precipitation Rate Change A2 2080s" />
+			<layer name_id="gcce:gcce-precipitation-change_B1-2080s" alias_title="Precipitation Rate Change B1 2080s" />
+			<layer name_id="gcce:gcce-temperature-change_A2-2050s" alias_title="Temperature Change A2 2040-2069" />
+			<layer name_id="gcce:gcce-temperature-change_B1-2050s" alias_title="Temperature Change B1 2040-2069" />
+			<layer name_id="gcce:gcce-temperature-change_A2-2080s" alias_title="Temperature Change A2 2070-2099" />
+			<layer name_id="gcce:gcce-temperature-change_B1-2080s" alias_title="Temperature Change B1 2070-2099" />
 		</lesson>
 
 		<lesson tabname="Water Resources"
