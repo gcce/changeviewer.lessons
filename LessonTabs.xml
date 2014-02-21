@@ -19,7 +19,7 @@
 		</lesson>
 
 		<lesson tabname="Natural Disasters: Cyclones"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-sst-cyclone_nargis-2008"
 				alias_title="Sea Surface Temperature (degrees celsius) Cyclone Nargis April 27-May 3, 2008" />
 			<!--<layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks (1969-2009)"/>
@@ -78,7 +78,7 @@
         </lesson>
 
 		<lesson tabname="Food Security"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-soil-nutrient-availability"
 				alias_title="Soil Nutrient Availability" />
 			<layer name_id="gcce:gcce-soil-salinity" alias_title="Soil Salinity"/>
@@ -125,7 +125,7 @@
 		</lesson>
 
 		<lesson tabname="Food Security"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="climate1stop:climate1stop-runoff-yearly-average-1961-1990" alias_title="Runoff Yearly Average 1961 to 1990"/>		
 		</lesson>
 
@@ -155,7 +155,7 @@
 		</lesson>    
 
 		<lesson tabname="Climate Projections"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 		<!--	<layer name_id="35"
 				alias_title="Climate Moisture Index Yearly Average 1961 to 1990" />
 			<layer name_id="47" alias_title="Precipitation Monthly Average 1901 to 2002"/>-->
@@ -203,7 +203,7 @@
 
 
 		<lesson tabname="Climate Projections"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 
 			<!-- test layer
 
@@ -222,7 +222,7 @@
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2031-2040" alias_title="Precipitation 2031 to 2040 Dry Model"/>
 			<layer name_id="climate1stop:climate1stop-precipitation-dry-model-2051-2060" alias_title="Precipitation 2051 to 2060 Dry Model"/>
 			<layer name_id="climate1stop:climate1stop-precipitation-mid-model-2031-2040" alias_title="Precipitation 2031 to 2040 Mid Model"/>
@@ -240,7 +240,7 @@
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-global-glacial-distribution" alias_title="Global Glacier Distribution"/>
 			<layer name_id="gcce:gcce-global-fresh-water-bodies" alias_title="Global Fresh Water Bodies"/>
 			<layer name_id="gcce:gcce-available-water-by-drainage-basin-1961-1990" alias_title="Available Water by Drainage Basin 1961 to 1990"/>
@@ -270,12 +270,12 @@
 		</lesson>
 
 		<lesson tabname="Water Resources"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita 2009"/>
 		</lesson>
 
 		<lesson tabname="Sea Level Rise"
-			wms_url="http://sedac.ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-sea-level-rise-1-meter" alias_title="1 Meter Sea Level Rise" />
 			<layer name_id="gcce:gcce-sea-level-rise-2-meter" alias_title="2 Meter Sea Level Rise" />
 			<layer name_id="gcce:gcce-sea-level-rise-3-meter" alias_title="3 Meter Sea Level Rise" />
