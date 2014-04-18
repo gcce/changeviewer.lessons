@@ -21,16 +21,15 @@
 			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-sst-cyclone_nargis-2008"
 				alias_title="Sea Surface Temperature (degrees celsius) Cyclone Nargis April 27-May 3, 2008" />
-	<!--	<layer name_id="012" alias_title="Cyclone Physical Exposure 2010"/>
-			<layer name_id="011" alias_title="Cyclone Surge Physical Exposure 2010"/>
-			<layer name_id="015" alias_title="Cyclone Events based on theSaffir Simpson Categories for 1969 to 2009"/>
-			-->
+			<layer name_id="gcce:gcce-cyclone-phyexp" alias_title="Cyclone Physical Exposure 2010"/>
+			<layer name_id="gcce:gcce-cyclone-surge-phyexp" alias_title="Cyclone Surge Physical Exposure 2010"/>
+			<layer name_id="gcce:gcce-cyclone-events" alias_title="Cyclone Events based on the Saffir Simpson Categories for 1969 to 2009"/>
 			<layer name_id="gcce:gcce-cyclone-risk" alias_title="Cyclone Risk"/>
 			<layer name_id="gcce:gcce-cyclone-surge-frequency" alias_title="Cyclone Surge Frequency Category 1"/>
 			<layer name_id="gcce:gcce-cyclone-intensity" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
             		<layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks by Year"/></lesson>
 
-		<lesson tabname="Natural Disasters: Cyclones"
+	<!--	<lesson tabname="Natural Disasters: Cyclones"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
 			<layer name_id="012" alias_title="Cyclone Physical Exposure 2010"/>
 			<layer name_id="011" alias_title="Cyclone Surge Physical Exposure 2010"/>
@@ -39,7 +38,7 @@
 			<layer name_id="010" alias_title="Cyclone Surge Frequency Category 1"/>
 			<layer name_id="013" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
             <layer name_id="016" alias_title="Cyclone Tracks by Year"/>
-		</lesson>
+		</lesson>-->
 
 		<lesson tabname="Food Security"
 			wms_url="http://sedac.ciesin.columbia.edu/geoserver/ows?service=wms&amp;request=GetCapabilities&amp;version=1.3.0">
@@ -85,7 +84,7 @@
 			<layer name_id="gcce:gcce-precipitation-anomaly_2011_apr-jun"
 				alias_title="Precipitation Anomaly (mm/day) April-June 2011" />
 			<layer name_id="gcce:gcce-nitrogen-fertilizer" alias_title="Nitrogen Fertilizer Application (kg/hectare)"/>
-			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita 2009"/>
+			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita in 2009 in US Dollars"/>
 			<layer name_id="gcce:gcce-precipitation-change_A2-2050s"
 				alias_title="Precipitation Rate Change A2 2050s" />
 			<layer name_id="gcce:gcce-precipitation-change_B1-2050s"
@@ -124,12 +123,13 @@
 			<layer name_id="019" alias_title="Wheat Production Average in Tons"/>
 			<layer name_id="020" alias_title="Rice Production Average in Tons"/>
 			<layer name_id="021" alias_title="Maize Production Average in Tons"/>
-			<layer name_id="017" alias_title="GDP per capita in 2009 in US Dollars"/>
+		<!--	<layer name_id="017" alias_title="GDP per capita in 2009 in US Dollars"/>
 			<layer name_id="018" alias_title="Suitability of Currently Available Land for Rainfed Production of Cereals"/>
-		</lesson>
+		--></lesson>
 		
 		<lesson tabname="Food Security"
 			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
+			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita in 2009 in US Dollars"/>
 			<layer name_id="gcce:gcce-land-suitable-rain-fed-agriculture-cereals" alias_title="Suitability of Currently Available Land for Rainfed Production of Cereals test"/>
 		</lesson>
 		
@@ -251,7 +251,7 @@
 
 		<lesson tabname="Water Resources"
 			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
-			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita 2009"/>
+			<layer name_id="gcce:gcce-gdp-per-capita_2009" alias_title="GDP per capita in 2009 in US Dollars"/>
 		</lesson>
 
 		<lesson tabname="Sea Level Rise"
@@ -328,6 +328,7 @@
 			<layer name_id="gcce:gcce-sea-level-rise-1-meter" alias_title="1 Meter Sea Level Rise" />
 			<layer name_id="gcce:gcce-sea-level-rise-2-meter" alias_title="2 Meter Sea Level Rise" />
 			<layer name_id="gcce:gcce-sea-level-rise-3-meter" alias_title="3 Meter Sea Level Rise" />
+			<layer name_id="gcce:gcce-gdp-per-capita-2009" alias_title="GDP per capita in 2009 in US Dollars"/>
 		</lesson>    
 
 
@@ -345,10 +346,7 @@
 				alias_title="GRUMP v1 Population Density 2010" />
 		</lesson>    
 		
-		<lesson tabname="Migrations"
-			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
-			<layer name_id="017" alias_title="GDP per capita in 2009 in US Dollars"/>
-		</lesson>
+
 		
 	</lessons>
 </changeview>
