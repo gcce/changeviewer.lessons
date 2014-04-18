@@ -21,7 +21,14 @@
 			wms_url="http://ciesin.columbia.edu/gInc/xml/ciesin-wms-capabilities-1.3.0.xml">
 			<layer name_id="gcce:gcce-sst-cyclone_nargis-2008"
 				alias_title="Sea Surface Temperature (degrees celsius) Cyclone Nargis April 27-May 3, 2008" />
-		</lesson>
+	<!--	<layer name_id="012" alias_title="Cyclone Physical Exposure 2010"/>
+			<layer name_id="011" alias_title="Cyclone Surge Physical Exposure 2010"/>
+			<layer name_id="015" alias_title="Cyclone Events based on theSaffir Simpson Categories for 1969 to 2009"/>
+			-->
+			<layer name_id="gcce:gcce-cyclone-risk" alias_title="Cyclone Risk"/>
+			<layer name_id="gcce:gcce-cyclone-surge-frequency" alias_title="Cyclone Surge Frequency Category 1"/>
+			<layer name_id="gcce:gcce-cyclone-intensity" alias_title="Cyclones Intensity based on the Saffir Simpson Categories for 1970 to 2009"/>
+            		<layer name_id="gcce:gcce-cyclone-tracks" alias_title="Cyclone Tracks by Year"/></lesson>
 
 		<lesson tabname="Natural Disasters: Cyclones"
 			wms_url="http://arcserver5.iagt.org/arcserver5/services/CHANGEViewB/MapServer/WMSServer?service=wms&amp;version=1.3.0&amp;request=GetCapabilities">
